@@ -1,0 +1,1 @@
+export {Assets, Products} from './assets';
