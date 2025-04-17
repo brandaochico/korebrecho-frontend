@@ -10,6 +10,7 @@ import icon_back from './icon_back.png';
 import icon_sustentability from './icon_sustentability.png';
 import icon_quality from './icon_quality.png';
 import icon_exchange from './icon_exchange.png'
+import icon_dropdown from './icon_dropdown.png'; 
 import p_img_1 from './p_img_1.jpeg';
 import p_img_2 from './p_img_2.jpeg';
 import p_img_3 from './p_img_3.jpeg';
@@ -30,6 +31,7 @@ const Assets = {
     icon_sustentability,
     icon_exchange,
     icon_quality,
+    icon_dropdown,
     p_img_1,
     p_img_2,
     p_img_3,
@@ -45,8 +47,8 @@ const Products = [
         description: "Descrição sem uso nenhum apenas para preencher espaço para teste de produtos.",
         price: 65,
         image: [p_img_1],
-        category: "Unissex",
-        subCategory: "Calças",
+        category: "Genderless",
+        subCategory: "Pants",
         sizes: ["G"],
         date: 1741998322,
         new_drop: true
@@ -57,8 +59,8 @@ const Products = [
         description: "Descrição sem uso nenhum apenas para preencher espaço para teste de produtos.",
         price: 55,
         image: [p_img_2],
-        category: "Unissex",
-        subCategory: "Calças",
+        category: "Genderless",
+        subCategory: "Pants",
         sizes: ["M"],
         date: 1741998322,
         new_drop: true
@@ -69,8 +71,8 @@ const Products = [
         description: "Descrição sem uso nenhum apenas para preencher espaço para teste de produtos.",
         price: 70,
         image: [p_img_3],
-        category: "Feminino",
-        subCategory: "Vestidos",
+        category: "Women",
+        subCategory: "Dress",
         sizes: ["M"],
         date: 1741998322,
         new_drop: false
@@ -81,8 +83,8 @@ const Products = [
         description: "Descrição sem uso nenhum apenas para preencher espaço para teste de produtos.",
         price: 40,
         image: [p_img_4],
-        category: "Masculino",
-        subCategory: "Bermudas",
+        category: "Men",
+        subCategory: "Shorts",
         sizes: ["M"],
         date: 1741998322,
         new_drop: true
@@ -93,8 +95,8 @@ const Products = [
         description: "Descrição sem uso nenhum apenas para preencher espaço para teste de produtos.",
         price: 75,
         image: [p_img_5],
-        category: "Unissex",
-        subCategory: "Blazers",
+        category: "Genderless",
+        subCategory: "Blazer",
         sizes: ["P"],
         date: 1741998322,
         new_drop: false
@@ -105,8 +107,8 @@ const Products = [
         description: "Descrição sem uso nenhum apenas para preencher espaço para teste de produtos.",
         price: 75,
         image: [p_img_6],
-        category: "Unissex",
-        subCategory: "Blazers",
+        category: "Genderless",
+        subCategory: "Blazer",
         sizes: ["G"],
         date: 1741998322,
         new_drop: true
