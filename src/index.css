@@ -13,6 +13,7 @@ a.active hr {
 
 @theme {
     --color-purple: #5A456F;
+    --color-purple-600: #1e142b;
 }
 
 .montserrat{

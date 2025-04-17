@@ -1,7 +1,7 @@
 import React from 'react';
 import {Routes, Route} from 'react-router-dom';
 import {Home, Drops, About, Cart, Contact, Product, Login, Orders, PlaceOrder} from './pages';
-import { Navbar } from './components';
+import { Footer, Navbar } from './components';
 
 const App = () => {
   return (
@@ -19,6 +19,7 @@ const App = () => {
         <Route path='/pedidos' element={<Orders/>}/>
         <Route path='/fazer-pedido' element={<PlaceOrder/>}/>
       </Routes>
+      <Footer />
 
     </div>
   )

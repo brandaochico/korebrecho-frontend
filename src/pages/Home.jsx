@@ -1,5 +1,5 @@
 import React from 'react'
-import {AllDrops, Hero, LatestDrop, Policy} from '../components';
+import {AllDrops, Hero, LatestDrop, Policy, NewsletterBox} from '../components';
 
 const Home = () => {
   return (
@@ -8,6 +8,7 @@ const Home = () => {
       <LatestDrop />
       <AllDrops />
       <Policy />
+      <NewsletterBox />
     </div>
   )
 }

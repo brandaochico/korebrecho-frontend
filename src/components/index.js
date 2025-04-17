@@ -4,3 +4,5 @@ export {LatestDrop} from './LatestDrop';
 export {Title} from './Title';
 export {AllDrops} from './AllDrops';
 export {Policy} from './Policy';
+export {NewsletterBox} from './NewsletterBox';
+export {Footer} from './Footer';

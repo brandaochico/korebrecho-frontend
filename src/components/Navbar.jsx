@@ -13,7 +13,7 @@ const Navbar = () => {
             <img src={Assets.logo_full} className='w-38' alt="Logo"/>
         </Link>
 
-        <ul className='hidden sm:flex gap-5 text-base text-purple'>
+        <ul className='hidden sm:flex gap-5 text-base text-purple-600'>
 
             <NavLink to='/' className='flex flex-col items-center gap-1'>
                 <p>Inicial</p>
@@ -51,7 +51,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <Link to='/cart' className='relative'>
+            <Link to='/carrinho' className='relative'>
                 <img src={Assets.icon_bag} className='w-5 min-w-5' alt="Carrinho" />
                 <p className='absolute right-[-5px] w-5 text-center leading-4 bg-purple text-white aspect-square rounded-full text-[10px] font-bold'>10</p>
             </Link>
